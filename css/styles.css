@@ -142,16 +142,10 @@ body{
 .intro{
     color: var(--white);
     background-color: var(--dark-blue);
-    background-image:linear-gradient(0deg, rgba(0, 0, 0, 0.4), rgba(3, 3, 3, 0.4)),url('/img/background.jpg');
-    
+    background-image:linear-gradient(0deg,rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)),url('/img/background.jpg');    
     background-repeat: no-repeat;
     background-size: auto;
-    background-position: 50% 50%;
-
-    
-    
-   
-    
+    background-position: 50% 50%; 
     
 }
 
@@ -343,6 +337,21 @@ body{
 .ourt__images{
     width: 270px;
     height: 260px;
+}
+/* Regular section style */
+
+.regular h2 {
+    font-family: var(--primary-font);
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 42px;
+    color: var(--black);
+}
+.regular__title {
+    display: flex;
+    justify-content: center;
+    padding-top: 94px;
+    padding-bottom: 94px;
 }
 
 
