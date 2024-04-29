@@ -293,7 +293,7 @@ body{
     display: flex;
     justify-content: center;
     padding-top: 10px;
-    padding-bottom: 30px;
+    
 }
 .ourt__card{
     box-shadow: 0px 2px 1px 0px rgba(0, 0, 0, 0.2),
@@ -318,11 +318,15 @@ body{
 }
 
 .ourt__role__name{
+    background-color: var(--white);
     font-family: var(--primary-font);
     font-weight: 500;
     font-size: 16px;
     line-height: 19px;
     color: var(--black);
+}
+.ourt__role__role{
+background-color: var(--white);
 }
 
 .ourt__role{
@@ -331,7 +335,22 @@ body{
     font-size: 16px;
     line-height: 19px;
     color: var(--light-black);
-
+}
+.ourt_social{
+    background-color: var(--white);
+    display: flex;
+    justify-content: center;
+    padding:16px 32px 30px;
+    gap:10px;
+}
+.ourt_social li{
+background-color: var(--white);
+padding:12px;
+border-radius: 100px;
+}
+.ourt_social li:hover {
+    background-color: var(--light-blue);
+    fill: var(--white);
 }
 
 .ourt__images{
@@ -351,8 +370,21 @@ body{
     display: flex;
     justify-content: center;
     padding-top: 94px;
-    padding-bottom: 94px;
+    padding-bottom: 50px;
 }
+.regular_logos{
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    padding:0 215px 94px;
+}
+.regular_logos li {
+    background-color: var(--white);
+}
+
+    
+
+
 
 
 
@@ -497,10 +529,15 @@ color: var(--white);
 
 
 
-
+/*clase universale section style */
 .container{
     width: 1600px;
     margin-left: auto;
     margin-right: auto;
 
 }
+.icon {
+    width: 20px;
+    height: 20px;
+}
+
