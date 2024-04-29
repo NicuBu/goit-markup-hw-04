@@ -98,32 +98,38 @@ body{
     color: var(--light-blue);
 }
 .header__info__mail  {
-    
-    font-family: var(--primary-font);
+    display: flex;
+    gap:10px;font-family: var(--primary-font);
     font-weight: 500;
     font-size: 14px;
     line-height: 16px;
     color: var(--light-black);
-        
 }
+
 
 .header__info__mail:hover {
     color: var(--light-blue);
+    fill: var(--light-blue);
 }
 .header__info__mail:focus {
     color: var(--light-blue);
 }
+.header__icon:hover{
+
+}
 .header__info__tel {
-  
+    display: flex;
     font-family: var(--primary-font);
     font-weight: 500;
     font-size: 14px;
     line-height: 16px;
     color: var(--light-black);
+    gap: 10px;
 
 }
 .header__info__tel:hover {
     color: var(--light-blue);
+    fill: var(--light-blue);
 }
 .header__info__tel:focus {
     color: var(--light-blue);
@@ -134,8 +140,13 @@ body{
     gap:40px;
     padding-top: 32px;
     padding-bottom: 32px;
-   
 }
+.header__icon{
+    width: 15px;
+    height: 15px;
+}
+
+
 
 
 /* Hero section style */
@@ -224,6 +235,7 @@ body{
     background-color: var(--grey-white);
     border-radius: 4px;
     margin-bottom: 30px;
+    gap: 30px;
  }
 
 
@@ -313,6 +325,10 @@ body{
 .ourt{
     background-color: var(--grey-white);
 }
+.ourt__card {
+    border-bottom-right-radius: 4px;
+    border-bottom-left-radius: 4px;
+}
 
 .ourt  h2{
     font-family: var(--primary-font);
@@ -343,11 +359,14 @@ background-color: var(--white);
 }
 .ourt_social{
     background-color: var(--white);
+    border-bottom-right-radius: 4px;
+     border-bottom-left-radius: 4px;
     display: flex;
     justify-content: center;
     padding:16px 32px 30px;
     gap:10px;
 }
+
 .ourt_social li{
 background-color: var(--white);
 padding:12px;
