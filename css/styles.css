@@ -318,10 +318,6 @@ body{
     0px 1px 3px 0px rgba(0, 0, 0, 0.12);
 }
 
-    
-
-
-
 .ourt{
     background-color: var(--grey-white);
 }
@@ -413,11 +409,6 @@ border-radius: 100px;
     fill: var(--light-blue);
 }
 
-    
-
-
-
-
 
 
 /* Footer section style */
@@ -505,12 +496,6 @@ border-radius: 100px;
     
 }
 
-    
-      
-
-
-
-
 
 
 
@@ -533,10 +518,18 @@ border-radius: 4px;
 .btn button:hover{
 background-color: var(--light-blue);
 color: var(--white);
+box-shadow:
+    0px 2px 2px 0px #0000001F,
+    0px 1px 2px 0px #00000014,
+    0px 3px 1px 0px #0000001A;
 }
 .btn button:focus {
 background-color: var(--light-blue);
 color: var(--white);
+box-shadow:
+    0px 2px 2px 0px #0000001F,
+    0px 1px 2px 0px #00000014,
+    0px 3px 1px 0px #0000001A;
 }
 
 .btn .container {
@@ -580,16 +573,18 @@ color: var(--white);
     padding-left: 215px;
     padding-right: 215px;
     gap: 30px;
-
-    
 }
 .main__design{
     padding: 20px 24px;
 }
 .main__card {
     border-bottom: 1px solid rgba(238, 238, 238, 1) ;
-    
-    
+}
+.main__card:hover{
+    box-shadow: 
+    1px 4px 6px 0px #00000029,
+    0px 4px 4px 0px #0000000F,
+    0px 1px 1px 0px #0000001F;
 }
 
 

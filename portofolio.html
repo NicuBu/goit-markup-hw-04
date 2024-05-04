@@ -28,8 +28,15 @@
             </nav>
         
             <div class="header__info">
-                <a class="header__info__mail" href="mailto:info@devstudio.com">info@devstudio.com</a>
-                <a class="header__info__tel" href="tel:+12127724150">+1 212-772-4150</a>
+                <a class="header__info__mail" href="mailto:info@devstudio.com">
+                    <svg class="header__icon">
+                        <use href="./img/symbol-defs.svg#icon-envelope" />
+                    </svg>info@devstudio.com</a>
+                
+                <a class="header__info__tel" href="tel:+12127724150">
+                    <svg class="header__icon">
+                        <use href="./img/symbol-defs.svg#icon-smartphone" />
+                    </svg>+1 212-772-4150</a>
             </div>
             </div>
         
@@ -123,15 +130,49 @@
         <!-- Footer section-->
         <footer class="footer">
             <div class="container">
-            <div class="footer__logo">
-                <a href="/index.html"><span style="color:#2196F3 ;">Web</span>Studio</a>
-            </div>       
-        
-            <address class="footer__address">
-                <p class="footer__location">695 Park Ave. NY 10065, USA</p>
-                <a href="mailto:info@devstudio.com">info@devstudio.com</a>
-                <a href="tel:+12127724150">+1 212-772-4150</a>
-            </address>
+                <div class="footer__container">
+                    <div class="footer__logo">
+                        <a href="/index.html"><span style="color:#2196F3 ;">Web</span>Studio</a>
+                    </div>
+                    <address class="footer__address">
+                        <p class="footer__location">695 Park Ave. NY 10065, USA</p>
+                        <a href="mailto:info@devstudio.com">info@devstudio.com</a>
+                        <a href="tel:+12127724150">+1 212-772-4150</a>
+                    </address>
+                </div>
+                <div class="footer__findus">
+                    <h2 class="footer__findus__title">Find us</h2>
+                    <ul class="footer__findus__social">
+                        <li class="regular_icon">
+                            <a href="">
+                                <svg class="icon">
+                                    <use href="./img/symbol-defs.svg#icon-instagram" />
+                                </svg>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="">
+                                <svg class="icon">
+                                    <use href="./img/symbol-defs.svg#icon-twitter" />
+                                </svg>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="">
+                                <svg class="icon">
+                                    <use href="./img/symbol-defs.svg#icon-facebook" />
+                                </svg>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="">
+                                <svg class="icon">
+                                    <use href="./img/symbol-defs.svg#icon-linkedin" />
+                                </svg>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
             </div>
         </footer>
     </body>
