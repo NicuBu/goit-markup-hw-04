@@ -472,6 +472,10 @@ border-radius: 100px;
     margin-bottom: 20px;
     margin-top: 75px;
 }
+.footer__findus__title{
+    display: flex;
+    justify-content: flex-start;
+}
 
 .footer__findus__social {
     display: flex;
